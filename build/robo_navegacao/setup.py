@@ -1,0 +1,1 @@
+/home/glist/buddy/src/robo_navegacao/setup.py

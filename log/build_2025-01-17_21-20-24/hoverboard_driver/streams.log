@@ -1,0 +1,147 @@
+[0.016s] Invoking command in '/home/glist/buddy/build/hoverboard_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/glist/buddy/src/hoverboard-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/glist/buddy/install/hoverboard_driver
+[0.440s] -- The CXX compiler identification is GNU 11.4.0
+[0.440s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.440s] -- Detecting CXX compile features
+[0.440s] -- Detecting CXX compile features - done
+[0.441s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.441s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.441s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.441s] -- Found hardware_interface: 2.46.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.441s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.441s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.554s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.556s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.575s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.630s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.646s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.648s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.657s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.667s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.674s] -- Looking for C++ include pthread.h
+[0.751s] -- Looking for C++ include pthread.h - found
+[0.752s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.828s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.829s] -- Found Threads: TRUE  
+[0.866s] -- Found control_toolbox: 3.4.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.884s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.904s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.960s] -- Configuring done
+[0.983s] -- Generating done
+[0.987s] -- Build files have been written to: /home/glist/buddy/build/hoverboard_driver
+[0.996s] Invoked command in '/home/glist/buddy/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/glist/buddy/src/hoverboard-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/glist/buddy/install/hoverboard_driver
+[0.997s] Invoking command in '/home/glist/buddy/build/hoverboard_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/hoverboard_driver -- -j16 -l16
+[1.043s] [ 66%] [32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/hoverboard_driver.cpp.o[0m
+[1.043s] [ 66%] [32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/pid.cpp.o[0m
+[2.126s] In file included from [01m[K/opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp:41[m[K,
+[2.127s]                  from [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/include/hoverboard_driver/pid.hpp:3[m[K,
+[2.127s]                  from [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:2[m[K:
+[2.127s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[2.127s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.127s]       |                                                                                                    [01;36m[K^[m[K
+[2.434s] In file included from [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:2[m[K:
+[2.434s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/include/hoverboard_driver/pid.hpp:122:17:[m[K [01;31m[Kerror: [m[K‘[01m[KNode[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[2.434s]   122 |         rclcpp::[01;31m[KNode[m[K::SharedPtr node_;
+[2.434s]       |                 [01;31m[K^~~~[m[K
+[2.435s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:[m[K In member function ‘[01m[Kvoid PID::init(double, double, double, double, double, double, bool, double, double)[m[K’:
+[2.435s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[2.435s]    17 |     RCLCPP_INFO(rclcpp::[01;31m[Kget_logger[m[K("hoverboard_driver"), "Initialize PID");
+[2.435s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.446s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_IMPORT[m[K’?
+[2.446s]    17 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("hoverboard_driver"), "Initialize PID");
+[2.446s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.447s]       |     [32m[KRCLCPP_IMPORT[m[K
+[2.448s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:26:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[2.448s]    26 |     RCLCPP_DEBUG_STREAM(rclcpp::[01;31m[Kget_logger[m[K("hoverboard_driver"), "Initialized PID: F=" << f << ", P=" << gains.p_gain_ << ", I=" << gains.i_gain_ << ", D=" << gains.d_gain_ << ", out_min=" << out_min_ << ", out_max=" << out_max_);
+[2.448s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[2.448s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:26:88:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [20][m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[2.448s]    26 |     RCLCPP_DEBUG_STREAM(rclcpp::get_logger("hoverboard_driver"), [32m[K"Initialized PID: F="[m[K [01;31m[K<<[m[K [34m[Kf[m[K << ", P=" << gains.p_gain_ << ", I=" << gains.i_gain_ << ", D=" << gains.d_gain_ << ", out_min=" << out_min_ << ", out_max=" << out_max_);
+[2.448s]       |                                                                  [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~[m[K
+[2.449s]       |                                                                  [32m[K|[m[K                        [34m[K|[m[K
+[2.449s]       |                                                                  [32m[Kconst char [20][m[K          [34m[Kdouble[m[K
+[2.467s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM[m[K’ was not declared in this scope
+[2.467s]    26 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(rclcpp::get_logger("hoverboard_driver"), "Initialized PID: F=" << f << ", P=" << gains.p_gain_ << ", I=" << gains.i_gain_ << ", D=" << gains.d_gain_ << ", out_min=" << out_min_ << ", out_max=" << out_max_);
+[2.467s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.468s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:[m[K In member function ‘[01m[Kvoid PID::setParameters(double, double, double, double, double, double, bool)[m[K’:
+[2.468s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:81:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[2.468s]    81 |     RCLCPP_DEBUG_STREAM(rclcpp::[01;31m[Kget_logger[m[K("hoverboard_driver"), "Update PID Gains: F=" << f << ", P=" << gains.p_gain_ << ", I=" << gains.i_gain_ << ", D=" << gains.d_gain_ << ", out_min=" << out_min_ << ", out_max=" << out_max_);
+[2.468s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[2.468s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:81:89:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [21][m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[2.468s]    81 |     RCLCPP_DEBUG_STREAM(rclcpp::get_logger("hoverboard_driver"), [32m[K"Update PID Gains: F="[m[K [01;31m[K<<[m[K [34m[Kf[m[K << ", P=" << gains.p_gain_ << ", I=" << gains.i_gain_ << ", D=" << gains.d_gain_ << ", out_min=" << out_min_ << ", out_max=" << out_max_);
+[2.468s]       |                                                                  [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~[m[K
+[2.468s]       |                                                                  [32m[K|[m[K                         [34m[K|[m[K
+[2.468s]       |                                                                  [32m[Kconst char [21][m[K           [34m[Kdouble[m[K
+[2.485s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:81:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM[m[K’ was not declared in this scope
+[2.485s]    81 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(rclcpp::get_logger("hoverboard_driver"), "Update PID Gains: F=" << f << ", P=" << gains.p_gain_ << ", I=" << gains.i_gain_ << ", D=" << gains.d_gain_ << ", out_min=" << out_min_ << ", out_max=" << out_max_);
+[2.485s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.486s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:[m[K In member function ‘[01m[Kvoid PID::setOutputLimits(double, double)[m[K’:
+[2.486s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:88:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[2.486s]    88 |     RCLCPP_DEBUG_STREAM(rclcpp::[01;31m[Kget_logger[m[K("hoverboard_driver"), "Update PID output limits: lower=" << out_min_ << ", upper=" << out_max_);
+[2.486s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[2.486s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:88:101:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [33][m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[2.486s]    88 |     RCLCPP_DEBUG_STREAM(rclcpp::get_logger("hoverboard_driver"), [32m[K"Update PID output limits: lower="[m[K [01;31m[K<<[m[K [34m[Kout_min_[m[K << ", upper=" << out_max_);
+[2.486s]       |                                                                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~[m[K
+[2.486s]       |                                                                  [32m[K|[m[K                                     [34m[K|[m[K
+[2.487s]       |                                                                  [32m[Kconst char [33][m[K                       [34m[Kdouble[m[K
+[2.506s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM[m[K’ was not declared in this scope
+[2.506s]    88 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(rclcpp::get_logger("hoverboard_driver"), "Update PID output limits: lower=" << out_min_ << ", upper=" << out_max_);
+[2.507s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.507s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:[m[K In member function ‘[01m[Kdouble PID::clamp(const double&, const double&, const double&)[m[K’:
+[2.507s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:94:13:[m[K [01;31m[Kerror: [m[K‘[01m[KClock[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[2.507s]    94 |     rclcpp::[01;31m[KClock[m[K clock;
+[2.507s]       |             [01;31m[K^~~~~[m[K
+[2.507s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:97:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[2.507s]    97 |             rclcpp::[01;31m[Kget_logger[m[K("hoverboard_driver"), clock, 1000000000,
+[2.507s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[2.507s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:98:22:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [7][m[K’ and ‘[01m[Kconst double[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[2.507s]    98 |             [32m[K"Clamp "[m[K [01;31m[K<<[m[K [34m[Kvalue[m[K << " to upper limit " << upper_limit);
+[2.507s]       |             [32m[K~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~[m[K
+[2.507s]       |             [32m[K|[m[K           [34m[K|[m[K
+[2.507s]       |             [32m[K|[m[K           [34m[Kconst double[m[K
+[2.507s]       |             [32m[Kconst char [7][m[K
+[2.530s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM_THROTTLE[m[K’ was not declared in this scope
+[2.530s]    96 |         [01;31m[KRCLCPP_DEBUG_STREAM_THROTTLE[m[K(
+[2.530s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.534s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:102:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[2.534s]   102 |             rclcpp::[01;31m[Kget_logger[m[K("hoverboard_driver"), clock, 1000000000,
+[2.534s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[2.534s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:103:22:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [7][m[K’ and ‘[01m[Kconst double[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[2.534s]   103 |             [32m[K"Clamp "[m[K [01;31m[K<<[m[K [34m[Kvalue[m[K << " to lower limit " << upper_limit);
+[2.534s]       |             [32m[K~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~[m[K
+[2.534s]       |             [32m[K|[m[K           [34m[K|[m[K
+[2.534s]       |             [32m[K|[m[K           [34m[Kconst double[m[K
+[2.534s]       |             [32m[Kconst char [7][m[K
+[2.557s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/pid.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM_THROTTLE[m[K’ was not declared in this scope
+[2.557s]   101 |         [01;31m[KRCLCPP_DEBUG_STREAM_THROTTLE[m[K(
+[2.557s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.818s] gmake[2]: *** [CMakeFiles/hoverboard_driver.dir/build.make:90: CMakeFiles/hoverboard_driver.dir/hardware/pid.cpp.o] Error 1
+[2.819s] gmake[2]: *** Waiting for unfinished jobs....
+[2.842s] In file included from [01m[K/opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp:41[m[K,
+[2.842s]                  from [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/include/hoverboard_driver/pid.hpp:3[m[K,
+[2.843s]                  from [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/include/hoverboard_driver/hoverboard_driver.hpp:34[m[K,
+[2.843s]                  from [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/hoverboard_driver.cpp:15[m[K:
+[2.843s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[2.843s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.843s]       |                                                                                                    [01;36m[K^[m[K
+[3.302s] In file included from [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/include/hoverboard_driver/hoverboard_driver.hpp:34[m[K,
+[3.302s]                  from [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/hoverboard_driver.cpp:15[m[K:
+[3.302s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/include/hoverboard_driver/pid.hpp:122:17:[m[K [01;31m[Kerror: [m[K‘[01m[KNode[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[3.303s]   122 |         rclcpp::[01;31m[KNode[m[K::SharedPtr node_;
+[3.303s]       |                 [01;31m[K^~~~[m[K
+[5.481s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/hoverboard_driver.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hoverboard_driver::hoverboard_driver::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.481s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/hoverboard_driver.cpp:328:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.481s]   328 |       const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+[5.482s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.486s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/hoverboard_driver.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hoverboard_driver::hoverboard_driver::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.487s] [01m[K/home/glist/buddy/src/hoverboard-driver/hardware/hoverboard_driver.cpp:429:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.487s]   429 |       [01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+[5.487s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[7.817s] gmake[2]: *** [CMakeFiles/hoverboard_driver.dir/build.make:76: CMakeFiles/hoverboard_driver.dir/hardware/hoverboard_driver.cpp.o] Error 1
+[7.817s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hoverboard_driver.dir/all] Error 2
+[7.818s] gmake: *** [Makefile:146: all] Error 2
+[7.820s] Invoked command in '/home/glist/buddy/build/hoverboard_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/hoverboard_driver -- -j16 -l16

@@ -1,0 +1,1 @@
+/home/glist/buddy/src/yolov8_msgs/msg/Pose2D.msg

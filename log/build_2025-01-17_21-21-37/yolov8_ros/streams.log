@@ -1,0 +1,27 @@
+[0.492s] Invoking command in '/home/glist/buddy/build/yolov8_ros': AMENT_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs LD_LIBRARY_PATH=/home/glist/buddy/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/glist/buddy/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages:/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/yolov8_ros/build --no-deps symlink_data
+[0.701s] running develop
+[0.841s] running egg_info
+[0.841s] creating yolov8_ros.egg-info
+[0.841s] writing yolov8_ros.egg-info/PKG-INFO
+[0.841s] writing dependency_links to yolov8_ros.egg-info/dependency_links.txt
+[0.841s] writing entry points to yolov8_ros.egg-info/entry_points.txt
+[0.841s] writing requirements to yolov8_ros.egg-info/requires.txt
+[0.841s] writing top-level names to yolov8_ros.egg-info/top_level.txt
+[0.842s] writing manifest file 'yolov8_ros.egg-info/SOURCES.txt'
+[0.843s] reading manifest file 'yolov8_ros.egg-info/SOURCES.txt'
+[0.844s] writing manifest file 'yolov8_ros.egg-info/SOURCES.txt'
+[0.845s] running build_ext
+[0.845s] Creating /home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages/yolov8-ros.egg-link (link to .)
+[0.845s] Installing debug_node script to /home/glist/buddy/install/yolov8_ros/lib/yolov8_ros
+[0.846s] Installing detect_3d_node script to /home/glist/buddy/install/yolov8_ros/lib/yolov8_ros
+[0.846s] Installing tracking_node script to /home/glist/buddy/install/yolov8_ros/lib/yolov8_ros
+[0.846s] Installing yolov8_node script to /home/glist/buddy/install/yolov8_ros/lib/yolov8_ros
+[0.846s] 
+[0.846s] Installed /home/glist/buddy/build/yolov8_ros
+[0.846s] running symlink_data
+[0.846s] creating /home/glist/buddy/install/yolov8_ros/share/ament_index
+[0.846s] creating /home/glist/buddy/install/yolov8_ros/share/ament_index/resource_index
+[0.846s] creating /home/glist/buddy/install/yolov8_ros/share/ament_index/resource_index/packages
+[0.846s] symbolically linking /home/glist/buddy/build/yolov8_ros/resource/yolov8_ros -> /home/glist/buddy/install/yolov8_ros/share/ament_index/resource_index/packages
+[0.846s] symbolically linking /home/glist/buddy/build/yolov8_ros/package.xml -> /home/glist/buddy/install/yolov8_ros/share/yolov8_ros
+[0.871s] Invoked command in '/home/glist/buddy/build/yolov8_ros' returned '0': AMENT_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs LD_LIBRARY_PATH=/home/glist/buddy/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/glist/buddy/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages:/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/yolov8_ros/build --no-deps symlink_data

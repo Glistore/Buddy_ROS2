@@ -1,0 +1,4 @@
+[console_scripts]
+lidar = robo_navegacao.lidar:main
+navegacao = robo_navegacao.navegacao:main
+

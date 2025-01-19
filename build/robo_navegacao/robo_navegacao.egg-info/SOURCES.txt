@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/robo_navegacao
+robo_navegacao/__init__.py
+robo_navegacao/lidar.py
+robo_navegacao/navegacao.py
+robo_navegacao.egg-info/PKG-INFO
+robo_navegacao.egg-info/SOURCES.txt
+robo_navegacao.egg-info/dependency_links.txt
+robo_navegacao.egg-info/entry_points.txt
+robo_navegacao.egg-info/requires.txt
+robo_navegacao.egg-info/top_level.txt
+robo_navegacao.egg-info/zip-safe

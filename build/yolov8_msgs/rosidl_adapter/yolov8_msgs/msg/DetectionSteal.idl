@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolov8_msgs/msg/DetectionSteal.msg
+// generated code does not contain a copyright notice
+
+
+module yolov8_msgs {
+  module msg {
+    struct DetectionSteal {
+      boolean steal;
+    };
+  };
+};

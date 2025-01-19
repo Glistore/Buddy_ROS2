@@ -1,0 +1,57 @@
+[0.432s] Invoking command in '/home/glist/buddy/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/rplidar_ros -- -j16 -l16
+[0.466s] [35m[1mConsolidate compiler generated dependencies of target rplidar_client[0m
+[0.469s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[0.469s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[0.480s] [  5%] Built target rplidar_client
+[0.494s] [100%] Built target rplidar_composition
+[0.494s] [100%] Built target rplidar_node
+[0.504s] Invoked command in '/home/glist/buddy/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/rplidar_ros -- -j16 -l16
+[0.506s] Invoking command in '/home/glist/buddy/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/rplidar_ros
+[0.512s] -- Install configuration: ""
+[0.512s] -- Execute custom install script
+[0.513s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[0.521s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[0.529s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[0.536s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[0.545s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[0.553s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[0.560s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[0.568s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[0.575s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[0.583s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[0.591s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[0.600s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[0.608s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[0.616s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[0.625s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[0.633s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[0.641s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[0.650s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[0.658s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[0.666s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[0.675s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[0.683s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[0.692s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[0.700s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[0.710s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[0.720s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[0.729s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[0.737s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[0.746s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[0.754s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[0.763s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[0.771s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[0.779s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[0.790s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[0.798s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[0.806s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[0.814s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[0.823s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[0.831s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.dsv
+[0.839s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[0.848s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.856s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.864s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[0.872s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[0.880s] -- Symlinking: /home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.xml
+[0.890s] Invoked command in '/home/glist/buddy/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/rplidar_ros

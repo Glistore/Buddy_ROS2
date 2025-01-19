@@ -1,0 +1,7 @@
+[console_scripts]
+image_saver = opencv_tools.image_saver:main
+publisherHumanVIDEO = opencv_tools.PublisherHumanVIDEONode:main
+publisherTomatoVIDEO = opencv_tools.PublisherTomatoVIDEONode:main
+subscribeHumanVIDEO = opencv_tools.SubscribeHumanVIDEONode:main
+subscribeTomatoVIDEO = opencv_tools.SubscribeTomatoVIDEONode:main
+

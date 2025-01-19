@@ -1,0 +1,10 @@
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/uninstall.dir
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/hoverboard_driver_uninstall.dir
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/hoverboard_driver.dir
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/test.dir
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/edit_cache.dir
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/rebuild_cache.dir
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/list_install_components.dir
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/install.dir
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/install/local.dir
+/home/glist/buddy/build/hoverboard_driver/CMakeFiles/install/strip.dir

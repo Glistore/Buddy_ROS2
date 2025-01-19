@@ -1,0 +1,1 @@
+/home/glist/buddy/build/yolov8_msgs/rosidl_generator_py/yolov8_msgs/msg/_mask.py

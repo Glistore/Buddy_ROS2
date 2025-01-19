@@ -1,0 +1,4 @@
+Invoking command in '/home/glist/buddy/build/hoverboard_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/glist/buddy/src/hoverboard-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/glist/buddy/install/hoverboard_driver
+Invoked command in '/home/glist/buddy/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/glist/buddy/src/hoverboard-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/glist/buddy/install/hoverboard_driver
+Invoking command in '/home/glist/buddy/build/hoverboard_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/hoverboard_driver -- -j16 -l16
+Invoked command in '/home/glist/buddy/build/hoverboard_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/hoverboard_driver -- -j16 -l16

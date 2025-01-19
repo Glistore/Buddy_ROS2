@@ -1,0 +1,508 @@
+[0.199s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.199s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c5a2f23b3a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c5a2f23add0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c5a2f23add0>>, mixin_verb=('build',))
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.399s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/glist/buddy'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard-driver) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard-driver) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard-driver) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard-driver) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard-driver) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard-driver) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard-driver) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard-driver) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard-driver) by extension 'ros'
+[0.414s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hoverboard-driver' with type 'ros.ament_cmake' and name 'hoverboard_driver'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ros'
+[0.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_tools' with type 'ros.ament_python' and name 'opencv_tools'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_navegacao) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_navegacao) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_navegacao) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_navegacao) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_navegacao) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_navegacao) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_navegacao) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_navegacao) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_navegacao) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_navegacao' with type 'ros.ament_python' and name 'robo_navegacao'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.418s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_bringup) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_bringup) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_bringup) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_bringup) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_bringup) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_bringup) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_bringup) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_bringup) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_bringup' with type 'ros.ament_cmake' and name 'yolov8_bringup'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ros'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_ros' with type 'ros.ament_python' and name 'yolov8_ros'
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.458s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 292 installed packages in /opt/ros/humble
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_driver' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_driver' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'hoverboard_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/glist/buddy/build/hoverboard_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/glist/buddy/install/hoverboard_driver', 'merge_install': False, 'path': '/home/glist/buddy/src/hoverboard-driver', 'symlink_install': True, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/glist/buddy/build/opencv_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/glist/buddy/install/opencv_tools', 'merge_install': False, 'path': '/home/glist/buddy/src/opencv_tools', 'symlink_install': True, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robo_navegacao' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robo_navegacao' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robo_navegacao' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robo_navegacao' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robo_navegacao' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robo_navegacao' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robo_navegacao' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robo_navegacao' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robo_navegacao' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'robo_navegacao' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/glist/buddy/build/robo_navegacao', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/glist/buddy/install/robo_navegacao', 'merge_install': False, 'path': '/home/glist/buddy/src/robo_navegacao', 'symlink_install': True, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/glist/buddy/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/glist/buddy/install/rplidar_ros', 'merge_install': False, 'path': '/home/glist/buddy/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/glist/buddy/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/glist/buddy/install/yolov8_msgs', 'merge_install': False, 'path': '/home/glist/buddy/src/yolov8_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/glist/buddy/build/yolov8_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/glist/buddy/install/yolov8_ros', 'merge_install': False, 'path': '/home/glist/buddy/src/yolov8_ros', 'symlink_install': True, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/glist/buddy/build/yolov8_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/glist/buddy/install/yolov8_bringup', 'merge_install': False, 'path': '/home/glist/buddy/src/yolov8_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.488s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/glist/buddy/src/yolov8_msgs' with build type 'ament_cmake'
+[0.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/glist/buddy/src/yolov8_msgs'
+[0.494s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/glist/buddy/src/hoverboard-driver' with build type 'ament_cmake'
+[0.497s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/glist/buddy/src/hoverboard-driver'
+[0.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.500s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/glist/buddy/src/opencv_tools' with build type 'ament_python'
+[0.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'ament_prefix_path')
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.ps1'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.sh'
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.505s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/glist/buddy/src/robo_navegacao' with build type 'ament_python'
+[0.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_navegacao', 'ament_prefix_path')
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/hook/ament_prefix_path.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/hook/ament_prefix_path.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/hook/ament_prefix_path.sh'
+[0.508s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.508s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.510s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/glist/buddy/src/rplidar_ros' with build type 'ament_cmake'
+[0.510s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/glist/buddy/src/rplidar_ros'
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/yolov8_msgs -- -j16 -l16
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/hoverboard_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/hoverboard_driver -- -j16 -l16
+[0.759s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/glist/buddy/src/opencv_tools'
+[0.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.956s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/glist/buddy/src/robo_navegacao'
+[0.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/rplidar_ros -- -j16 -l16
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/hoverboard_driver -- -j16 -l16
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/hoverboard_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/hoverboard_driver
+[0.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/yolov8_msgs -- -j16 -l16
+[0.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/yolov8_msgs
+[1.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_driver)
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/hoverboard_driver
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver' for CMake module files
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver' for CMake config files
+[1.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_driver', 'cmake_prefix_path')
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/cmake_prefix_path.ps1'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/cmake_prefix_path.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/cmake_prefix_path.sh'
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/lib'
+[1.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_driver', 'ld_library_path_lib')
+[1.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/ld_library_path_lib.ps1'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/ld_library_path_lib.dsv'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/ld_library_path_lib.sh'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/bin'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/lib/pkgconfig/hoverboard_driver.pc'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/lib/python3.10/site-packages'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/bin'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.ps1'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.dsv'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.sh'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.bash'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.zsh'
+[1.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/hoverboard_driver/share/colcon-core/packages/hoverboard_driver)
+[1.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_driver)
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver' for CMake module files
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver' for CMake config files
+[1.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_driver', 'cmake_prefix_path')
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/cmake_prefix_path.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/cmake_prefix_path.dsv'
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/cmake_prefix_path.sh'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/lib'
+[1.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_driver', 'ld_library_path_lib')
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/ld_library_path_lib.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/ld_library_path_lib.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/hook/ld_library_path_lib.sh'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/bin'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/lib/pkgconfig/hoverboard_driver.pc'
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/lib/python3.10/site-packages'
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/hoverboard_driver/bin'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.ps1'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.dsv'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.sh'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.bash'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.zsh'
+[1.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/hoverboard_driver/share/colcon-core/packages/hoverboard_driver)
+[1.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/rplidar_ros -- -j16 -l16
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/rplidar_ros
+[1.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros' for CMake module files
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/rplidar_ros
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros' for CMake config files
+[1.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/lib'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/bin'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/lib/python3.10/site-packages'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/bin'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros' for CMake module files
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros' for CMake config files
+[1.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/lib'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/bin'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/lib/python3.10/site-packages'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/rplidar_ros/bin'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs' for CMake module files
+[1.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/yolov8_msgs
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs' for CMake config files
+[1.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/lib'
+[1.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/bin'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/lib/python3.10/site-packages'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/bin'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[1.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[1.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs' for CMake module files
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs' for CMake config files
+[1.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/lib'
+[1.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/bin'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/lib/python3.10/site-packages'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_msgs/bin'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[1.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[1.142s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/glist/buddy/src/yolov8_ros' with build type 'ament_python'
+[1.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_ros', 'ament_prefix_path')
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/hook/ament_prefix_path.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/hook/ament_prefix_path.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/hook/ament_prefix_path.sh'
+[1.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.364s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/glist/buddy/src/yolov8_ros'
+[1.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/robo_navegacao': PYTHONPATH=/home/glist/buddy/build/robo_navegacao/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/robo_navegacao/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/robo_navegacao/build --no-deps symlink_data
+[1.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/opencv_tools': PYTHONPATH=/home/glist/buddy/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/opencv_tools/build --no-deps symlink_data
+[1.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/yolov8_ros': AMENT_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs LD_LIBRARY_PATH=/home/glist/buddy/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/glist/buddy/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages:/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/yolov8_ros/build --no-deps symlink_data
+[1.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'pythonpath_develop')
+[1.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/opencv_tools' returned '0': PYTHONPATH=/home/glist/buddy/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/opencv_tools/build --no-deps symlink_data
+[1.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/build/opencv_tools/share/opencv_tools/hook/pythonpath_develop.ps1'
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/build/opencv_tools/share/opencv_tools/hook/pythonpath_develop.dsv'
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/build/opencv_tools/share/opencv_tools/hook/pythonpath_develop.sh'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/opencv_tools' for CMake module files
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/opencv_tools' for CMake config files
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/opencv_tools/lib'
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/opencv_tools/bin'
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/opencv_tools/lib/pkgconfig/opencv_tools.pc'
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/opencv_tools/lib/python3.10/site-packages'
+[1.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'pythonpath')
+[1.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/opencv_tools/share/opencv_tools/hook/pythonpath.ps1'
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/opencv_tools/share/opencv_tools/hook/pythonpath.dsv'
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/opencv_tools/share/opencv_tools/hook/pythonpath.sh'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/opencv_tools/bin'
+[1.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tools)
+[1.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/opencv_tools/share/opencv_tools/package.ps1'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/opencv_tools/share/opencv_tools/package.dsv'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/opencv_tools/share/opencv_tools/package.sh'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/opencv_tools/share/opencv_tools/package.bash'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/opencv_tools/share/opencv_tools/package.zsh'
+[1.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/opencv_tools/share/colcon-core/packages/opencv_tools)
+[1.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_navegacao', 'pythonpath_develop')
+[1.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/build/robo_navegacao/share/robo_navegacao/hook/pythonpath_develop.ps1'
+[1.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/robo_navegacao' returned '0': PYTHONPATH=/home/glist/buddy/build/robo_navegacao/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/robo_navegacao/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/robo_navegacao/build --no-deps symlink_data
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/build/robo_navegacao/share/robo_navegacao/hook/pythonpath_develop.dsv'
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/build/robo_navegacao/share/robo_navegacao/hook/pythonpath_develop.sh'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/robo_navegacao' for CMake module files
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/robo_navegacao' for CMake config files
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/robo_navegacao/lib'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/robo_navegacao/bin'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/robo_navegacao/lib/pkgconfig/robo_navegacao.pc'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/robo_navegacao/lib/python3.10/site-packages'
+[1.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_navegacao', 'pythonpath')
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/hook/pythonpath.ps1'
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/hook/pythonpath.dsv'
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/hook/pythonpath.sh'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/robo_navegacao/bin'
+[1.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_navegacao)
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/package.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/package.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/package.sh'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/package.bash'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/robo_navegacao/share/robo_navegacao/package.zsh'
+[1.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/robo_navegacao/share/colcon-core/packages/robo_navegacao)
+[2.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_ros', 'pythonpath_develop')
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/build/yolov8_ros/share/yolov8_ros/hook/pythonpath_develop.ps1'
+[2.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/yolov8_ros' returned '0': AMENT_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs LD_LIBRARY_PATH=/home/glist/buddy/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/glist/buddy/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages:/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/yolov8_ros/build --no-deps symlink_data
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/build/yolov8_ros/share/yolov8_ros/hook/pythonpath_develop.dsv'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/build/yolov8_ros/share/yolov8_ros/hook/pythonpath_develop.sh'
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_ros' for CMake module files
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_ros' for CMake config files
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_ros/lib'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_ros/bin'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_ros/lib/pkgconfig/yolov8_ros.pc'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages'
+[2.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_ros', 'pythonpath')
+[2.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/hook/pythonpath.ps1'
+[2.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/hook/pythonpath.dsv'
+[2.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/hook/pythonpath.sh'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_ros/bin'
+[2.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_ros)
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/package.ps1'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/package.dsv'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/package.sh'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/package.bash'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_ros/share/yolov8_ros/package.zsh'
+[2.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/yolov8_ros/share/colcon-core/packages/yolov8_ros)
+[2.025s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/glist/buddy/src/yolov8_bringup' with build type 'ament_cmake'
+[2.025s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/glist/buddy/src/yolov8_bringup'
+[2.025s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/glist/buddy/install/yolov8_ros:/home/glist/buddy/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/glist/buddy/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/glist/buddy/build/yolov8_ros:/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages:/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/glist/buddy/build/yolov8_bringup -- -j16 -l16
+[2.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/glist/buddy/install/yolov8_ros:/home/glist/buddy/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/glist/buddy/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/glist/buddy/build/yolov8_ros:/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages:/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/glist/buddy/build/yolov8_bringup -- -j16 -l16
+[2.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/glist/buddy/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/glist/buddy/install/yolov8_ros:/home/glist/buddy/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/glist/buddy/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/glist/buddy/build/yolov8_ros:/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages:/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/glist/buddy/build/yolov8_bringup
+[2.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_bringup)
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup' for CMake module files
+[2.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/glist/buddy/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/glist/buddy/install/yolov8_ros:/home/glist/buddy/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/glist/buddy/install/yolov8_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/glist/buddy/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/glist/buddy/build/yolov8_ros:/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages:/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/glist/buddy/build/yolov8_bringup
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup' for CMake config files
+[2.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_bringup', 'cmake_prefix_path')
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/hook/cmake_prefix_path.ps1'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/hook/cmake_prefix_path.dsv'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/hook/cmake_prefix_path.sh'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup/bin'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup/lib/pkgconfig/yolov8_bringup.pc'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup/lib/python3.10/site-packages'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup/bin'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.ps1'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.dsv'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.bash'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.zsh'
+[2.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/yolov8_bringup/share/colcon-core/packages/yolov8_bringup)
+[2.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_bringup)
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup' for CMake module files
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup' for CMake config files
+[2.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_bringup', 'cmake_prefix_path')
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/hook/cmake_prefix_path.ps1'
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/hook/cmake_prefix_path.dsv'
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/hook/cmake_prefix_path.sh'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup/bin'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup/lib/pkgconfig/yolov8_bringup.pc'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup/lib/python3.10/site-packages'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/glist/buddy/install/yolov8_bringup/bin'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.ps1'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.dsv'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.sh'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.bash'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/glist/buddy/install/yolov8_bringup/share/yolov8_bringup/package.zsh'
+[2.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/glist/buddy/install/yolov8_bringup/share/colcon-core/packages/yolov8_bringup)
+[2.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.120s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.134s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/glist/buddy/install/local_setup.ps1'
+[2.136s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/glist/buddy/install/_local_setup_util_ps1.py'
+[2.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/glist/buddy/install/setup.ps1'
+[2.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/glist/buddy/install/local_setup.sh'
+[2.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/glist/buddy/install/_local_setup_util_sh.py'
+[2.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/glist/buddy/install/setup.sh'
+[2.141s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/glist/buddy/install/local_setup.bash'
+[2.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/glist/buddy/install/setup.bash'
+[2.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/glist/buddy/install/local_setup.zsh'
+[2.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/glist/buddy/install/setup.zsh'

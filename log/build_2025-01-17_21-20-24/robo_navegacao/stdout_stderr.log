@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating robo_navegacao.egg-info
+writing robo_navegacao.egg-info/PKG-INFO
+writing dependency_links to robo_navegacao.egg-info/dependency_links.txt
+writing entry points to robo_navegacao.egg-info/entry_points.txt
+writing requirements to robo_navegacao.egg-info/requires.txt
+writing top-level names to robo_navegacao.egg-info/top_level.txt
+writing manifest file 'robo_navegacao.egg-info/SOURCES.txt'
+reading manifest file 'robo_navegacao.egg-info/SOURCES.txt'
+writing manifest file 'robo_navegacao.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/glist/buddy/install/robo_navegacao/lib/python3.10/site-packages/robo-navegacao.egg-link (link to .)
+Installing lidar script to /home/glist/buddy/install/robo_navegacao/lib/robo_navegacao
+Installing navegacao script to /home/glist/buddy/install/robo_navegacao/lib/robo_navegacao
+
+Installed /home/glist/buddy/build/robo_navegacao
+running symlink_data
+creating /home/glist/buddy/install/robo_navegacao/share/ament_index
+creating /home/glist/buddy/install/robo_navegacao/share/ament_index/resource_index
+creating /home/glist/buddy/install/robo_navegacao/share/ament_index/resource_index/packages
+symbolically linking /home/glist/buddy/build/robo_navegacao/resource/robo_navegacao -> /home/glist/buddy/install/robo_navegacao/share/ament_index/resource_index/packages
+symbolically linking /home/glist/buddy/build/robo_navegacao/package.xml -> /home/glist/buddy/install/robo_navegacao/share/robo_navegacao

@@ -1,0 +1,394 @@
+[0.019s] Invoking command in '/home/glist/buddy/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/yolov8_msgs -- -j16 -l16
+[0.439s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_generator_c[0m
+[0.440s] [  0%] Built target yolov8_msgs__cpp
+[0.440s] [  1%] Built target ament_cmake_python_symlink_yolov8_msgs
+[0.440s] [ 12%] Built target yolov8_msgs__rosidl_generator_c
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_cpp[0m
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_introspection_c[0m
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.441s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_c[0m
+[0.441s] [ 32%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[0.441s] [ 36%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[0.441s] [ 48%] Built target yolov8_msgs__rosidl_typesupport_c
+[0.441s] [ 60%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[0.442s] [ 72%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[0.442s] [ 84%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[0.442s] [ 84%] Built target yolov8_msgs
+[0.442s] [ 85%] Built target yolov8_msgs__py
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_generator_py[0m
+[0.442s] [ 96%] Built target yolov8_msgs__rosidl_generator_py
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_c__pyext[0m
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.442s] [ 99%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.442s] [ 99%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[0.442s] [100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[0.443s] running egg_info
+[0.443s] writing yolov8_msgs.egg-info/PKG-INFO
+[0.443s] writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt
+[0.443s] writing top-level names to yolov8_msgs.egg-info/top_level.txt
+[0.443s] reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[0.443s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[0.443s] [100%] Built target ament_cmake_python_build_yolov8_msgs_egg
+[0.446s] Invoked command in '/home/glist/buddy/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/yolov8_msgs -- -j16 -l16
+[0.453s] Invoking command in '/home/glist/buddy/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/yolov8_msgs
+[0.459s] -- Install configuration: ""
+[0.460s] -- Execute custom install script
+[0.460s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+[0.469s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box2_d.h
+[0.477s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box3_d.h
+[0.485s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__functions.h
+[0.493s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__struct.h
+[0.500s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__type_support.h
+[0.508s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__functions.h
+[0.515s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__struct.h
+[0.524s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__type_support.h
+[0.532s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__functions.h
+[0.541s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__struct.h
+[0.550s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__type_support.h
+[0.558s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__functions.h
+[0.566s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__struct.h
+[0.573s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__type_support.h
+[0.581s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__functions.h
+[0.589s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__struct.h
+[0.596s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__type_support.h
+[0.605s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__functions.h
+[0.613s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__struct.h
+[0.621s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__type_support.h
+[0.629s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__functions.h
+[0.638s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__struct.h
+[0.646s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__type_support.h
+[0.655s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__functions.h
+[0.663s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__struct.h
+[0.671s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__type_support.h
+[0.679s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__functions.h
+[0.688s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__struct.h
+[0.696s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__type_support.h
+[0.705s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__functions.h
+[0.713s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__struct.h
+[0.723s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__type_support.h
+[0.732s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__functions.h
+[0.741s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__struct.h
+[0.750s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__type_support.h
+[0.759s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__functions.h
+[0.767s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__struct.h
+[0.775s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__type_support.h
+[0.784s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__functions.h
+[0.792s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__struct.h
+[0.803s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__type_support.h
+[0.811s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__functions.h
+[0.819s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__struct.h
+[0.827s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__type_support.h
+[0.836s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__functions.h
+[0.844s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__struct.h
+[0.852s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__type_support.h
+[0.860s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection.h
+[0.869s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_array.h
+[0.877s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_person.h
+[0.885s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_steal.h
+[0.893s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_tomato.h
+[0.901s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d.h
+[0.909s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d_array.h
+[0.918s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d.h
+[0.926s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d_array.h
+[0.935s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/mask.h
+[0.944s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/point2_d.h
+[0.952s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/pose2_d.h
+[0.961s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.970s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/vector2.h
+[0.978s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+[0.987s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+[0.997s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[1.005s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[1.014s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[1.023s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[1.032s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__rosidl_typesupport_fastrtps_c.h
+[1.041s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__rosidl_typesupport_fastrtps_c.h
+[1.049s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__rosidl_typesupport_fastrtps_c.h
+[1.057s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[1.065s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[1.074s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+[1.081s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+[1.090s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+[1.098s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[1.106s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[1.114s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[1.123s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.134s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[1.142s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[1.152s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[1.160s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[1.168s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__rosidl_typesupport_introspection_c.h
+[1.177s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__rosidl_typesupport_introspection_c.h
+[1.186s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__rosidl_typesupport_introspection_c.h
+[1.194s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[1.202s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[1.211s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+[1.219s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+[1.228s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h
+[1.236s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[1.244s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[1.252s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[1.260s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.269s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box2_d.hpp
+[1.277s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/bounding_box3_d.hpp
+[1.284s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__builder.hpp
+[1.292s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__struct.hpp
+[1.300s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__traits.hpp
+[1.309s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__type_support.hpp
+[1.317s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__builder.hpp
+[1.325s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__struct.hpp
+[1.333s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__traits.hpp
+[1.342s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[1.350s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__builder.hpp
+[1.357s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__struct.hpp
+[1.365s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__traits.hpp
+[1.373s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__type_support.hpp
+[1.381s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__builder.hpp
+[1.389s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__struct.hpp
+[1.397s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__traits.hpp
+[1.405s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__type_support.hpp
+[1.413s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__builder.hpp
+[1.422s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__struct.hpp
+[1.430s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__traits.hpp
+[1.439s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__type_support.hpp
+[1.447s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__builder.hpp
+[1.456s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__struct.hpp
+[1.464s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__traits.hpp
+[1.472s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__type_support.hpp
+[1.480s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__builder.hpp
+[1.489s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__struct.hpp
+[1.498s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__traits.hpp
+[1.506s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__type_support.hpp
+[1.514s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__builder.hpp
+[1.522s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__struct.hpp
+[1.531s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__traits.hpp
+[1.540s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__type_support.hpp
+[1.548s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__builder.hpp
+[1.557s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__struct.hpp
+[1.565s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__traits.hpp
+[1.572s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__type_support.hpp
+[1.580s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__builder.hpp
+[1.588s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__struct.hpp
+[1.596s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__traits.hpp
+[1.604s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__type_support.hpp
+[1.613s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__builder.hpp
+[1.620s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__struct.hpp
+[1.629s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__traits.hpp
+[1.638s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__type_support.hpp
+[1.646s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__builder.hpp
+[1.654s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__struct.hpp
+[1.662s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__traits.hpp
+[1.670s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__type_support.hpp
+[1.677s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__builder.hpp
+[1.686s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__struct.hpp
+[1.694s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__traits.hpp
+[1.702s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__type_support.hpp
+[1.710s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__builder.hpp
+[1.718s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__struct.hpp
+[1.726s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__traits.hpp
+[1.735s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__type_support.hpp
+[1.743s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__builder.hpp
+[1.751s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__struct.hpp
+[1.759s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__traits.hpp
+[1.766s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__type_support.hpp
+[1.774s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection.hpp
+[1.782s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_array.hpp
+[1.790s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_person.hpp
+[1.798s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_steal.hpp
+[1.805s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detection_tomato.hpp
+[1.813s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d.hpp
+[1.821s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point2_d_array.hpp
+[1.830s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d.hpp
+[1.837s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/key_point3_d_array.hpp
+[1.845s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/mask.hpp
+[1.853s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/point2_d.hpp
+[1.861s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/pose2_d.hpp
+[1.869s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.877s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/vector2.hpp
+[1.886s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.894s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.901s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[1.909s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.917s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__rosidl_typesupport_fastrtps_cpp.hpp
+[1.925s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__rosidl_typesupport_fastrtps_cpp.hpp
+[1.933s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__rosidl_typesupport_fastrtps_cpp.hpp
+[1.941s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.949s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.958s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.966s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.974s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+[1.982s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.990s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.998s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[2.007s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.015s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.024s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[2.033s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[2.042s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[2.050s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_person__rosidl_typesupport_introspection_cpp.hpp
+[2.059s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_steal__rosidl_typesupport_introspection_cpp.hpp
+[2.067s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/detection_tomato__rosidl_typesupport_introspection_cpp.hpp
+[2.075s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.084s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[2.092s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+[2.100s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[2.108s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+[2.116s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.124s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.132s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[2.140s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+[2.148s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+[2.157s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.4.0-py3.10.egg-info/PKG-INFO
+[2.165s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.4.0-py3.10.egg-info/SOURCES.txt
+[2.173s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.4.0-py3.10.egg-info/dependency_links.txt
+[2.181s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-3.4.0-py3.10.egg-info/top_level.txt
+[2.190s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py
+[2.197s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c
+[2.205s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.213s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.221s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so
+[2.229s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py
+[2.237s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box2_d.py
+[2.245s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box2_d_s.c
+[2.253s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box3_d.py
+[2.261s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box3_d_s.c
+[2.270s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection.py
+[2.278s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_array.py
+[2.287s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_array_s.c
+[2.295s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_person.py
+[2.303s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_person_s.c
+[2.311s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_s.c
+[2.319s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_steal.py
+[2.327s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_steal_s.c
+[2.336s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_tomato.py
+[2.344s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_tomato_s.c
+[2.352s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d.py
+[2.360s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_array.py
+[2.368s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_array_s.c
+[2.376s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_s.c
+[2.384s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d.py
+[2.392s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_array.py
+[2.400s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_array_s.c
+[2.408s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_s.c
+[2.416s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_mask.py
+[2.425s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_mask_s.c
+[2.434s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_point2_d.py
+[2.442s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_point2_d_s.c
+[2.450s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_pose2_d.py
+[2.458s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_pose2_d_s.c
+[2.467s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_vector2.py
+[2.475s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_vector2_s.c
+[2.482s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.491s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.499s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.507s] -- Up-to-date symlink: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.507s] -- Up-to-date symlink: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.508s] -- Up-to-date symlink: /home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.508s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.idl
+[2.516s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.idl
+[2.524s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.idl
+[2.532s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.idl
+[2.541s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.idl
+[2.549s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.idl
+[2.558s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.idl
+[2.566s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.idl
+[2.574s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.idl
+[2.582s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.idl
+[2.590s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.idl
+[2.598s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionPerson.idl
+[2.606s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionTomato.idl
+[2.614s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionSteal.idl
+[2.622s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.idl
+[2.631s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.msg
+[2.639s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.msg
+[2.648s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.msg
+[2.656s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.msg
+[2.664s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.msg
+[2.672s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.msg
+[2.681s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.msg
+[2.689s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.msg
+[2.698s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.msg
+[2.706s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.msg
+[2.714s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.msg
+[2.722s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionPerson.msg
+[2.730s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionTomato.msg
+[2.738s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionSteal.msg
+[2.747s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.msg
+[2.755s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+[2.763s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+[2.771s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+[2.779s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+[2.787s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+[2.795s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+[2.803s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+[2.812s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+[2.820s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+[2.828s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+[2.837s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+[2.845s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+[2.853s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+[2.862s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.870s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.878s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.886s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.894s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.902s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.911s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+[2.919s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+[2.928s] -- Symlinking: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/package.xml
+[2.936s] -- Installing: /home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+[2.937s] -- Set runtime path of "/home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so" to ""
+[2.937s] -- Installing: /home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+[2.937s] -- Set runtime path of "/home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.937s] -- Installing: /home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+[2.937s] -- Set runtime path of "/home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.938s] -- Installing: /home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+[2.938s] -- Set runtime path of "/home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so" to ""
+[2.938s] -- Installing: /home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.938s] -- Set runtime path of "/home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.938s] -- Installing: /home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+[2.939s] -- Set runtime path of "/home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.939s] -- Installing: /home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+[2.939s] -- Set runtime path of "/home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so" to ""
+[2.975s] Listing '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs'...
+[2.975s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py'...
+[2.975s] Listing '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg'...
+[2.975s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py'...
+[2.975s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box2_d.py'...
+[2.975s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_bounding_box3_d.py'...
+[2.975s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_array.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_person.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_steal.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_detection_tomato.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point2_d_array.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_key_point3_d_array.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_mask.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_point2_d.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_pose2_d.py'...
+[2.976s] Compiling '/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_vector2.py'...
+[2.979s] -- Installing: /home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so
+[2.979s] -- Set runtime path of "/home/glist/buddy/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so" to ""
+[2.979s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake
+[2.979s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.980s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.980s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.980s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.980s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.980s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+[2.980s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.981s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake
+[2.981s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.981s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.981s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.981s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.981s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+[2.981s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.982s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake
+[2.982s] -- Installing: /home/glist/buddy/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.984s] Invoked command in '/home/glist/buddy/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/yolov8_msgs

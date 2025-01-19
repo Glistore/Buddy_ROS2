@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target hoverboard_driver[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/hoverboard_driver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/pid.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libhoverboard_driver.so[0m
+[100%] Built target hoverboard_driver
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver//hoverboard_driver.xml
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/config.hpp
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/hoverboard_driver.hpp
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/pid.hpp
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/protocol.hpp
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/launch/view_robot.launch.py
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/ros2_control/hoverboard_driver.ros2_control.xacro
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.materials.xacro
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.urdf.xacro
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot_description.urdf.xacro
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/launch/diffbot.launch.py
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/config/hoverboard_controllers.yaml
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.sh
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.dsv
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/ament_index/resource_index/package_run_dependencies/hoverboard_driver
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/ament_index/resource_index/parent_prefix_path/hoverboard_driver
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/path.sh
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/path.dsv
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/local_setup.bash
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/local_setup.sh
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/local_setup.zsh
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/local_setup.dsv
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.dsv
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/ament_index/resource_index/packages/hoverboard_driver
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_driver
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig.cmake
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig-version.cmake
+-- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.xml
+-- Installing: /home/glist/buddy/install/hoverboard_driver/lib/libhoverboard_driver.so
+-- Set runtime path of "/home/glist/buddy/install/hoverboard_driver/lib/libhoverboard_driver.so" to ""
+-- Installing: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport.cmake
+-- Installing: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport-noconfig.cmake

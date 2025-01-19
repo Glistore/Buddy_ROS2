@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating opencv_tools.egg-info
+writing opencv_tools.egg-info/PKG-INFO
+writing dependency_links to opencv_tools.egg-info/dependency_links.txt
+writing entry points to opencv_tools.egg-info/entry_points.txt
+writing requirements to opencv_tools.egg-info/requires.txt
+writing top-level names to opencv_tools.egg-info/top_level.txt
+writing manifest file 'opencv_tools.egg-info/SOURCES.txt'
+reading manifest file 'opencv_tools.egg-info/SOURCES.txt'
+writing manifest file 'opencv_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/glist/buddy/install/opencv_tools/lib/python3.10/site-packages/opencv-tools.egg-link (link to .)
+Installing image_saver script to /home/glist/buddy/install/opencv_tools/lib/opencv_tools
+Installing publisherHumanVIDEO script to /home/glist/buddy/install/opencv_tools/lib/opencv_tools
+Installing publisherTomatoVIDEO script to /home/glist/buddy/install/opencv_tools/lib/opencv_tools
+Installing subscribeHumanVIDEO script to /home/glist/buddy/install/opencv_tools/lib/opencv_tools
+Installing subscribeTomatoVIDEO script to /home/glist/buddy/install/opencv_tools/lib/opencv_tools
+
+Installed /home/glist/buddy/build/opencv_tools
+running symlink_data
+creating /home/glist/buddy/install/opencv_tools/share/ament_index
+creating /home/glist/buddy/install/opencv_tools/share/ament_index/resource_index
+creating /home/glist/buddy/install/opencv_tools/share/ament_index/resource_index/packages
+symbolically linking /home/glist/buddy/build/opencv_tools/resource/opencv_tools -> /home/glist/buddy/install/opencv_tools/share/ament_index/resource_index/packages
+symbolically linking /home/glist/buddy/build/opencv_tools/package.xml -> /home/glist/buddy/install/opencv_tools/share/opencv_tools
+creating /home/glist/buddy/install/opencv_tools/share/opencv_tools/launch
+symbolically linking /home/glist/buddy/build/opencv_tools/launch/person.launch.py -> /home/glist/buddy/install/opencv_tools/share/opencv_tools/launch/
+symbolically linking /home/glist/buddy/build/opencv_tools/launch/food.launch.py -> /home/glist/buddy/install/opencv_tools/share/opencv_tools/launch/

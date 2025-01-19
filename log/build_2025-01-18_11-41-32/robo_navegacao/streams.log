@@ -1,0 +1,18 @@
+[0.798s] Invoking command in '/home/glist/buddy/build/robo_navegacao': PYTHONPATH=/home/glist/buddy/build/robo_navegacao/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/robo_navegacao/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/robo_navegacao/build --no-deps symlink_data
+[0.998s] running develop
+[1.132s] running egg_info
+[1.132s] writing robo_navegacao.egg-info/PKG-INFO
+[1.133s] writing dependency_links to robo_navegacao.egg-info/dependency_links.txt
+[1.133s] writing entry points to robo_navegacao.egg-info/entry_points.txt
+[1.133s] writing requirements to robo_navegacao.egg-info/requires.txt
+[1.133s] writing top-level names to robo_navegacao.egg-info/top_level.txt
+[1.134s] reading manifest file 'robo_navegacao.egg-info/SOURCES.txt'
+[1.135s] writing manifest file 'robo_navegacao.egg-info/SOURCES.txt'
+[1.136s] running build_ext
+[1.136s] Creating /home/glist/buddy/install/robo_navegacao/lib/python3.10/site-packages/robo-navegacao.egg-link (link to .)
+[1.137s] Installing lidar script to /home/glist/buddy/install/robo_navegacao/lib/robo_navegacao
+[1.137s] Installing navegacao script to /home/glist/buddy/install/robo_navegacao/lib/robo_navegacao
+[1.137s] 
+[1.137s] Installed /home/glist/buddy/build/robo_navegacao
+[1.137s] running symlink_data
+[1.169s] Invoked command in '/home/glist/buddy/build/robo_navegacao' returned '0': PYTHONPATH=/home/glist/buddy/build/robo_navegacao/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/glist/buddy/install/robo_navegacao/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/glist/buddy/build/robo_navegacao/build --no-deps symlink_data

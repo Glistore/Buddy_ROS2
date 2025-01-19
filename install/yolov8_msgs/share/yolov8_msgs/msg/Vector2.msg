@@ -1,0 +1,1 @@
+/home/glist/buddy/src/yolov8_msgs/msg/Vector2.msg

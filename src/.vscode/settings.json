@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/glist/buddy/build/yolov8_ros",
+        "/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages",
+        "/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages",
+        "/home/glist/buddy/build/robo_navegacao",
+        "/home/glist/buddy/install/robo_navegacao/lib/python3.10/site-packages",
+        "/home/glist/buddy/build/opencv_tools",
+        "/home/glist/buddy/install/opencv_tools/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/glist/buddy/build/yolov8_ros",
+        "/home/glist/buddy/install/yolov8_ros/lib/python3.10/site-packages",
+        "/home/glist/buddy/install/yolov8_msgs/local/lib/python3.10/dist-packages",
+        "/home/glist/buddy/build/robo_navegacao",
+        "/home/glist/buddy/install/robo_navegacao/lib/python3.10/site-packages",
+        "/home/glist/buddy/build/opencv_tools",
+        "/home/glist/buddy/install/opencv_tools/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

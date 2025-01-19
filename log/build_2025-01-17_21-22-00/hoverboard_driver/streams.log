@@ -1,0 +1,43 @@
+[0.018s] Invoking command in '/home/glist/buddy/build/hoverboard_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/hoverboard_driver -- -j16 -l16
+[0.426s] [35m[1mConsolidate compiler generated dependencies of target hoverboard_driver[0m
+[0.426s] [100%] Built target hoverboard_driver
+[0.429s] Invoked command in '/home/glist/buddy/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/glist/buddy/build/hoverboard_driver -- -j16 -l16
+[0.437s] Invoking command in '/home/glist/buddy/build/hoverboard_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/hoverboard_driver
+[0.442s] -- Install configuration: ""
+[0.443s] -- Execute custom install script
+[0.443s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver//hoverboard_driver.xml
+[0.443s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/config.hpp
+[0.443s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/hoverboard_driver.hpp
+[0.443s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/pid.hpp
+[0.443s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/protocol.hpp
+[0.444s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/launch/view_robot.launch.py
+[0.444s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/ros2_control/hoverboard_driver.ros2_control.xacro
+[0.444s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.materials.xacro
+[0.444s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.urdf.xacro
+[0.444s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot_description.urdf.xacro
+[0.444s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/launch/diffbot.launch.py
+[0.445s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/config/hoverboard_controllers.yaml
+[0.445s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.sh
+[0.445s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.dsv
+[0.445s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/ament_index/resource_index/package_run_dependencies/hoverboard_driver
+[0.445s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/ament_index/resource_index/parent_prefix_path/hoverboard_driver
+[0.445s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.sh
+[0.445s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.dsv
+[0.445s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/path.sh
+[0.446s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/environment/path.dsv
+[0.446s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/local_setup.bash
+[0.446s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/local_setup.sh
+[0.446s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/local_setup.zsh
+[0.446s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/local_setup.dsv
+[0.446s] -- Symlinking: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.dsv
+[0.454s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/ament_index/resource_index/packages/hoverboard_driver
+[0.454s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_driver
+[0.455s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_targets-extras.cmake
+[0.455s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.455s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig.cmake
+[0.455s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig-version.cmake
+[0.455s] -- Up-to-date symlink: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/package.xml
+[0.455s] -- Up-to-date: /home/glist/buddy/install/hoverboard_driver/lib/libhoverboard_driver.so
+[0.455s] -- Up-to-date: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport.cmake
+[0.455s] -- Up-to-date: /home/glist/buddy/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport-noconfig.cmake
+[0.458s] Invoked command in '/home/glist/buddy/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/glist/buddy/build/hoverboard_driver
